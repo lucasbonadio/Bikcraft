@@ -1,0 +1,23 @@
+.introducao-conteudo a {
+    font-size: 1.125rem;
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    text-decoration: none;
+    color: #332200;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.introducao-conteudo a:hover {
+    background: linear-gradient(#d3a008, #a3700a);
+}
+
+@media (max-width: 1000px) {
+    .introducao-conteudo a {
+        padding: 10px 20px;
+        font-size: 0.875rem;
+    }
+}
