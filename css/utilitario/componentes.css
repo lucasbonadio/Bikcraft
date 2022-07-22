@@ -1,4 +1,4 @@
-.introducao-conteudo a {
+.botao {
     font-size: 1.125rem;
     display: inline-block;
     padding: 16px 32px;
@@ -7,16 +7,26 @@
     color: #332200;
     text-transform: uppercase;
     font-weight: bold;
-    box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
     border-radius: 4px;
+    width: max-content;
 }
 
-.introducao-conteudo a:hover {
+.botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.botao:hover {
     background: linear-gradient(#d3a008, #a3700a);
 }
 
+.botao.secundario:hover {
+    background: var(--cor-8);
+}
+
 @media (max-width: 1000px) {
-    .introducao-conteudo a {
+    .botao {
         padding: 10px 20px;
         font-size: 0.875rem;
     }
