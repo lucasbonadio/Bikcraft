@@ -30,6 +30,10 @@
     margin-top: 16px;
 }
 
+.footer a:hover {
+    color: var(--cor-0);
+}
+
 .footer-redes {
     display: flex;
     gap: 40px;
