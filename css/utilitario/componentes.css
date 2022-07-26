@@ -44,7 +44,7 @@
   transform: translateX(4px);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     .botao {
         padding: 10px 20px;
         font-size: 0.875rem;

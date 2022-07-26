@@ -2,6 +2,10 @@
     margin-bottom: 40px;
 }
 
+.titulo p {
+    text-transform: uppercase;
+}
+
 .bicicleta {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -91,4 +95,14 @@
 
 .bicicleta-ficha span {
     color: var(--cor-5);
+}
+
+@media (max-width: 800px) {
+    .bicicleta {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicleta-imagens {
+        grid-row: 2;
+    }
 }
