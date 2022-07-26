@@ -1,0 +1,52 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form div:nth-child(3) {
+    grid-column: 1/-1;
+}
+
+.form div:nth-child(4) {
+    grid-column: 1/-1;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form input {
+    padding: 16px;
+    border: 1px solid var(--cor-1);
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.form input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--cor-p1);
+    background: var(--cor-0);
+    box-shadow: 0 0 0 2px #fea;
+}
+
+.form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--cor-1);
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.botao {
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
