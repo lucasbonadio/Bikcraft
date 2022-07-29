@@ -6,6 +6,7 @@
 @import url('./utilitario/componentes.css');
 @import url('./utilitario/cores.css');
 @import url('./utilitario/tipografia.css');
+@import url('./utilitario/animacao.css');
 
 /* Home */
 @import url('./home/introducao.css');
